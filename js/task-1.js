@@ -1,7 +1,7 @@
 const getUserNames = (users) => {
     return users.map(user => user.name);};
 
- /*Варіант-2(скорочений)
+ /*Варіант-2(скорочений з неявним поверненням)
  const getUserNames = users => users.map(user => user.name);  
  */ 
 
